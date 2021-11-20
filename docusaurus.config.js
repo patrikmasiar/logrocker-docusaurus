@@ -12,7 +12,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/guitar.png',
   organizationName: 'patrikmasiar',
-  projectName: 'logrocker',
+  projectName: 'logrocker-docusaurus',
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -63,6 +63,10 @@ const config = {
             items: [
               {
                 label: 'GitHub',
+                href: 'https://github.com/patrikmasiar/logrocker-docusaurus',
+              },
+              {
+                label: 'GitHub - Package',
                 href: 'https://github.com/patrikmasiar/logrocker',
               },
               {
